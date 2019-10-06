@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import Base.BaseClass;
 
 public class FlightSearch extends BaseClass {
@@ -61,13 +60,14 @@ public class FlightSearch extends BaseClass {
 	public static String Month = "April";
 	public static String day = "16";
 
-	public void OneWaySearch(String from, String to) throws InterruptedException {
+	public void OneWaySearch(String DepCity, String ArvCity) throws InterruptedException {
 		OneWay.click();
 		From.click();
-		From.sendKeys(from);
+		From.sendKeys(DepCity);
 		Thread.sleep(3000);
 		To.clear();
-		To.sendKeys(to);
+		Thread.sleep(3000);
+		To.sendKeys(ArvCity);
 		DatePicker.click();
 		while (true) {// Take xpath of month and store in variable, so it will check to current month
 			// to given month
@@ -97,6 +97,5 @@ public class FlightSearch extends BaseClass {
 		SearchButton.click();
 	}
 	
-	
-	
+		
 }

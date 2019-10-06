@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import Util.UtilClass;
 
-public class BaseClass {
+public class BaseClass extends UtilClass{
 	public static WebDriver driver;
 	public static Properties prop;
 	
