@@ -5,7 +5,7 @@
     <classes>
       <class name="TestCases.MultipleSearchTest">
         <methods>
-          <include name="MultipleSearch" invocation-numbers="0 1"/>
+          <include name="MultipleSearch" invocation-numbers="3"/>
           <include name="Setup"/>
           <include name="TearDown"/>
         </methods>

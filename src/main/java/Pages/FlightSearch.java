@@ -64,9 +64,9 @@ public class FlightSearch extends BaseClass {
 		OneWay.click();
 		From.click();
 		From.sendKeys(DepCity);
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		To.clear();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 		To.sendKeys(ArvCity);
 		DatePicker.click();
 		while (true) {// Take xpath of month and store in variable, so it will check to current month
@@ -89,11 +89,11 @@ public class FlightSearch extends BaseClass {
 		// array numbers and then added text()=parameter of date
 		driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/table[1]/tbody[1]/tr/td/a[1][text()=" + day + "]"))
 				.click();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		Passengers.click();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		Adult.click();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		SearchButton.click();
 	}
 	

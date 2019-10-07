@@ -14,7 +14,8 @@ import Util.UtilClass;
 public class BaseClass extends UtilClass{
 	public static WebDriver driver;
 	public static Properties prop;
-	
+	public static ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>();
+
 	public static void InitProp() throws IOException {
 			prop= new Properties();
 			FileInputStream fi= new FileInputStream("E:\\Selenium\\Workspace\\POMwithDataDrivenFramework\\src\\main\\java\\Config\\config.properties");
@@ -22,7 +23,7 @@ public class BaseClass extends UtilClass{
 		
 		
 }
-	public static void initialization() {
+	public WebDriver initialization() {
 		String browsername = prop.getProperty("browser");
 		if (browsername.equals("chrome")) {
         	System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Selenium Setup Files\\chromedriver.exe");
@@ -37,9 +38,14 @@ public class BaseClass extends UtilClass{
 	driver.manage().deleteAllCookies();
 	driver.manage().timeouts().pageLoadTimeout(UtilClass.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 	driver.manage().timeouts().implicitlyWait(UtilClass.IMPLICIT_WAIT, TimeUnit.SECONDS);
+	tdriver.set(driver);
 	
 	driver.get(prop.getProperty("url"));
-		
+	return getDriver();	
 	}
 
+	public static synchronized WebDriver getDriver() {
+		return tdriver.get();
+	}
+	
 }

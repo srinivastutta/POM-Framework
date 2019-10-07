@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 234.473 s <<< FAILURE! - in TestSuite
+SearchPageTitleTest(TestCases.SearchPageTest)  Time elapsed: 0.993 s  <<< FAILURE!
+java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
+	at TestCases.SearchPageTest.SearchPageTitleTest(SearchPageTest.java:39)
+
+HotelSearchPageTitleTest(TestCases.HotelSearchTest)  Time elapsed: 1.194 s  <<< FAILURE!
+java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
+	at TestCases.HotelSearchTest.HotelSearchPageTitleTest(HotelSearchTest.java:37)
+

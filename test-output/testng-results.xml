@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="210596" started-at="2019-10-06T14:07:48Z" finished-at="2019-10-06T14:11:19Z">
+  <suite name="Suite" duration-ms="155589" started-at="2019-10-07T13:55:49Z" finished-at="2019-10-07T13:58:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="210596" started-at="2019-10-06T14:07:48Z" finished-at="2019-10-06T14:11:19Z">
+    <test name="Test" duration-ms="155589" started-at="2019-10-07T13:55:49Z" finished-at="2019-10-07T13:58:24Z">
       <class name="TestCases.MultipleSearchTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="Setup" is-config="true" duration-ms="18348" started-at="2019-10-06T14:07:48Z" finished-at="2019-10-06T14:08:07Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.MultipleSearchTest@5db250b4]" name="Setup" is-config="true" duration-ms="19619" started-at="2019-10-07T13:55:49Z" finished-at="2019-10-07T13:56:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="MultipleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="MultipleSearch" duration-ms="22621" started-at="2019-10-06T14:08:07Z" data-provider="GetTestData" finished-at="2019-10-06T14:08:30Z">
+        <test-method status="PASS" signature="MultipleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MultipleSearchTest@5db250b4]" name="MultipleSearch" duration-ms="18529" started-at="2019-10-07T13:56:09Z" data-provider="GetTestData" finished-at="2019-10-07T13:56:27Z">
           <params>
             <param index="0">
               <value>
@@ -27,83 +27,157 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MultipleSearch -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="TearDown" is-config="true" duration-ms="883" started-at="2019-10-06T14:08:30Z" finished-at="2019-10-06T14:08:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="Setup" is-config="true" duration-ms="19249" started-at="2019-10-06T14:08:30Z" finished-at="2019-10-06T14:08:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="MultipleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="MultipleSearch" duration-ms="22248" started-at="2019-10-06T14:08:50Z" data-provider="GetTestData" finished-at="2019-10-06T14:09:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hyderabad (HYD)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Delhi (DEL)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MultipleSearch -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="TearDown" is-config="true" duration-ms="873" started-at="2019-10-06T14:09:12Z" finished-at="2019-10-06T14:09:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="Setup" is-config="true" duration-ms="17738" started-at="2019-10-06T14:09:13Z" finished-at="2019-10-06T14:09:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="MultipleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="MultipleSearch" duration-ms="22182" started-at="2019-10-06T14:09:31Z" data-provider="GetTestData" finished-at="2019-10-06T14:09:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hyderabad (HYD)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Tirupati (TIR)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MultipleSearch -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="TearDown" is-config="true" duration-ms="935" started-at="2019-10-06T14:09:53Z" finished-at="2019-10-06T14:09:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="Setup" is-config="true" duration-ms="19966" started-at="2019-10-06T14:09:54Z" finished-at="2019-10-06T14:10:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="MultipleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="MultipleSearch" duration-ms="64275" started-at="2019-10-06T14:10:14Z" data-provider="GetTestData" finished-at="2019-10-06T14:11:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hyderabad (HYD)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chennai (MAA)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MultipleSearch -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.MultipleSearchTest@4c15e7fd]" name="TearDown" is-config="true" duration-ms="840" started-at="2019-10-06T14:11:18Z" finished-at="2019-10-06T14:11:19Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.MultipleSearchTest@5db250b4]" name="TearDown" is-config="true" duration-ms="1041" started-at="2019-10-07T13:56:27Z" finished-at="2019-10-07T13:56:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- TestCases.MultipleSearchTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="TestCases.HotelSearchTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.HotelSearchTest@5bfa9431]" name="Setup" is-config="true" duration-ms="17962" started-at="2019-10-07T13:56:48Z" finished-at="2019-10-07T13:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="HotelSearchPageTitleTest()[pri:1, instance:TestCases.HotelSearchTest@5bfa9431]" name="HotelSearchPageTitleTest" duration-ms="35" started-at="2019-10-07T13:57:06Z" description="TitleTest" finished-at="2019-10-07T13:57:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at TestCases.HotelSearchTest.HotelSearchPageTitleTest(HotelSearchTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelSearchPageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.HotelSearchTest@5bfa9431]" name="TearDown" is-config="true" duration-ms="788" started-at="2019-10-07T13:57:07Z" finished-at="2019-10-07T13:57:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.HotelSearchTest@5bfa9431]" name="Setup" is-config="true" duration-ms="18598" started-at="2019-10-07T13:57:26Z" finished-at="2019-10-07T13:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="HotelSearchcheck()[pri:2, instance:TestCases.HotelSearchTest@5bfa9431]" name="HotelSearchcheck" duration-ms="4388" started-at="2019-10-07T13:57:45Z" description="HotelSearchTest" finished-at="2019-10-07T13:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelSearchcheck -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.HotelSearchTest@5bfa9431]" name="TearDown" is-config="true" duration-ms="875" started-at="2019-10-07T13:57:49Z" finished-at="2019-10-07T13:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCases.HotelSearchTest -->
+      <class name="TestCases.SearchPageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.SearchPageTest@2fd6b6c7]" name="Setup" is-config="true" duration-ms="18158" started-at="2019-10-07T13:56:28Z" finished-at="2019-10-07T13:56:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="SearchPageTitleTest()[pri:1, instance:TestCases.SearchPageTest@2fd6b6c7]" name="SearchPageTitleTest" duration-ms="24" started-at="2019-10-07T13:56:47Z" description="TitleTest" finished-at="2019-10-07T13:56:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at TestCases.SearchPageTest.SearchPageTitleTest(SearchPageTest.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.SearchPageTest@2fd6b6c7]" name="TearDown" is-config="true" duration-ms="785" started-at="2019-10-07T13:56:47Z" finished-at="2019-10-07T13:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.SearchPageTest@2fd6b6c7]" name="Setup" is-config="true" duration-ms="17596" started-at="2019-10-07T13:57:08Z" finished-at="2019-10-07T13:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="FlightSearchLogTest()[pri:2, instance:TestCases.SearchPageTest@2fd6b6c7]" name="FlightSearchLogTest" duration-ms="170" started-at="2019-10-07T13:57:25Z" description="LogoTest" finished-at="2019-10-07T13:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightSearchLogTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.SearchPageTest@2fd6b6c7]" name="TearDown" is-config="true" duration-ms="800" started-at="2019-10-07T13:57:25Z" finished-at="2019-10-07T13:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.SearchPageTest@2fd6b6c7]" name="Setup" is-config="true" duration-ms="17795" started-at="2019-10-07T13:57:50Z" finished-at="2019-10-07T13:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="OnewaySearchTest()[pri:3, instance:TestCases.SearchPageTest@2fd6b6c7]" name="OnewaySearchTest" duration-ms="15676" started-at="2019-10-07T13:58:08Z" description="OnewaySearch Test" finished-at="2019-10-07T13:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnewaySearchTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.SearchPageTest@2fd6b6c7]" name="TearDown" is-config="true" duration-ms="893" started-at="2019-10-07T13:58:23Z" finished-at="2019-10-07T13:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCases.SearchPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
