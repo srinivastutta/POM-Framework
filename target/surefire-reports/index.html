@@ -24,21 +24,21 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
                     <span>E:\Selenium\Workspace\POMwithDataDrivenFramework\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,65 +91,56 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                    <span class="method-stats">8 methods,  8 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content skipped suite-Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.HotelSearchTest" hash-for-method="HotelSearchPageTitleTest">HotelSearchPageTitleTest</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SearchPageTest" class="method navigator-link" hash-for-method="FlightSearchLogTest">FlightSearchLogTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.SearchPageTest" hash-for-method="SearchPageTitleTest">SearchPageTitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.SearchPageTest" hash-for-method="FlightSearchLogTest">FlightSearchLogTest</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HotelSearchTest" class="method navigator-link" hash-for-method="HotelSearchPageTitleTest">HotelSearchPageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.HotelSearchTest" hash-for-method="HotelSearchcheck">HotelSearchcheck</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.HotelSearchTest" class="method navigator-link" hash-for-method="HotelSearchcheck">HotelSearchcheck</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.MultipleSearchTest" hash-for-method="MultipleSearch(Hyderabad (HYD), Goa (GOI))">MultipleSearch(Hyderabad (HYD), Goa (GOI))</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MultipleSearchTest" class="method navigator-link" hash-for-method="MultipleSearch">MultipleSearch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.MultipleSearchTest" hash-for-method="MultipleSearch(Hyderabad (HYD), Tirupati (TIR))">MultipleSearch(Hyderabad (HYD), Tirupati (TIR))</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MultipleSearchTest" class="method navigator-link" hash-for-method="MultipleSearch">MultipleSearch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.MultipleSearchTest" hash-for-method="MultipleSearch(Hyderabad (HYD), Delhi (DEL))">MultipleSearch(Hyderabad (HYD), Delhi (DEL))</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.MultipleSearchTest" class="method navigator-link" hash-for-method="MultipleSearch">MultipleSearch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.SearchPageTest" hash-for-method="OnewaySearchTest">OnewaySearchTest</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SearchPageTest" class="method navigator-link" hash-for-method="OnewaySearchTest">OnewaySearchTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.SearchPageTest" class="method navigator-link" hash-for-method="SearchPageTitleTest">SearchPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -161,100 +152,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">TestCases.HotelSearchTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="HotelSearchPageTitleTest">
-                  </a> <!-- HotelSearchPageTitleTest -->
-                  <span class="method-name">HotelSearchPageTitleTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
-	at TestCases.HotelSearchTest.HotelSearchPageTitleTest(HotelSearchTest.java:37)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(TitleTest)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">TestCases.SearchPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="SearchPageTitleTest">
-                  </a> <!-- SearchPageTitleTest -->
-                  <span class="method-name">SearchPageTitleTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
-	at TestCases.SearchPageTest.SearchPageTitleTest(SearchPageTest.java:39)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(TitleTest)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestCases.MultipleSearchTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="MultipleSearch(Hyderabad (HYD), Goa (GOI))">
-                  </a> <!-- MultipleSearch(Hyderabad (HYD), Goa (GOI)) -->
-                  <span class="method-name">MultipleSearch</span>
-                  <span class="parameters">(Hyderabad (HYD), Goa (GOI))</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="MultipleSearch(Hyderabad (HYD), Tirupati (TIR))">
-                  </a> <!-- MultipleSearch(Hyderabad (HYD), Tirupati (TIR)) -->
-                  <span class="method-name">MultipleSearch</span>
-                  <span class="parameters">(Hyderabad (HYD), Tirupati (TIR))</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="MultipleSearch(Hyderabad (HYD), Delhi (DEL))">
-                  </a> <!-- MultipleSearch(Hyderabad (HYD), Delhi (DEL)) -->
-                  <span class="method-name">MultipleSearch</span>
-                  <span class="parameters">(Hyderabad (HYD), Delhi (DEL))</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestCases.HotelSearchTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="HotelSearchcheck">
-                  </a> <!-- HotelSearchcheck -->
-                  <span class="method-name">HotelSearchcheck</span>
-                  <em>
-(HotelSearchTest)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
               <span class="class-name">TestCases.SearchPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -263,6 +163,62 @@
                   <a name="FlightSearchLogTest">
                   </a> <!-- FlightSearchLogTest -->
                   <span class="method-name">FlightSearchLogTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Base.BaseClass.initialization(BaseClass.java:30)
+	at TestCases.SearchPageTest.Setup(SearchPageTest.java:28)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (LogoTest)                  </em>
                 </div> <!-- method-content -->
@@ -272,12 +228,468 @@
                   <a name="OnewaySearchTest">
                   </a> <!-- OnewaySearchTest -->
                   <span class="method-name">OnewaySearchTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Base.BaseClass.initialization(BaseClass.java:30)
+	at TestCases.SearchPageTest.Setup(SearchPageTest.java:28)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (OnewaySearch Test)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchPageTitleTest">
+                  </a> <!-- SearchPageTitleTest -->
+                  <span class="method-name">SearchPageTitleTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Base.BaseClass.initialization(BaseClass.java:30)
+	at TestCases.SearchPageTest.Setup(SearchPageTest.java:28)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TitleTest)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.MultipleSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MultipleSearch">
+                  </a> <!-- MultipleSearch -->
+                  <span class="method-name">MultipleSearch</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Base.BaseClass.initialization(BaseClass.java:30)
+	at TestCases.MultipleSearchTest.Setup(MultipleSearchTest.java:31)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MultipleSearch">
+                  </a> <!-- MultipleSearch -->
+                  <span class="method-name">MultipleSearch</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Base.BaseClass.initialization(BaseClass.java:30)
+	at TestCases.MultipleSearchTest.Setup(MultipleSearchTest.java:31)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MultipleSearch">
+                  </a> <!-- MultipleSearch -->
+                  <span class="method-name">MultipleSearch</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Base.BaseClass.initialization(BaseClass.java:30)
+	at TestCases.MultipleSearchTest.Setup(MultipleSearchTest.java:31)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.HotelSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HotelSearchPageTitleTest">
+                  </a> <!-- HotelSearchPageTitleTest -->
+                  <span class="method-name">HotelSearchPageTitleTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Base.BaseClass.initialization(BaseClass.java:30)
+	at TestCases.HotelSearchTest.Setup(HotelSearchTest.java:26)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TitleTest)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HotelSearchcheck">
+                  </a> <!-- HotelSearchcheck -->
+                  <span class="method-name">HotelSearchcheck</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Base.BaseClass.initialization(BaseClass.java:30)
+	at TestCases.HotelSearchTest.Setup(HotelSearchTest.java:26)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(HotelSearchTest)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -287,8 +699,11 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listener.MyTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestCases.SearchPageTest&quot;/&gt;
       &lt;class name=&quot;TestCases.HotelSearchTest&quot;/&gt;
@@ -336,40 +751,40 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'MultipleSearch')
 data.setCell(0, 2, 'TestCases.MultipleSearchTest')
-data.setCell(0, 3, 16992);
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'MultipleSearch')
-data.setCell(1, 2, 'TestCases.MultipleSearchTest')
-data.setCell(1, 3, 16115);
+data.setCell(1, 1, 'SearchPageTitleTest')
+data.setCell(1, 2, 'TestCases.SearchPageTest')
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'MultipleSearch')
 data.setCell(2, 2, 'TestCases.MultipleSearchTest')
-data.setCell(2, 3, 15996);
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'OnewaySearchTest')
-data.setCell(3, 2, 'TestCases.SearchPageTest')
-data.setCell(3, 3, 15550);
+data.setCell(3, 1, 'HotelSearchcheck')
+data.setCell(3, 2, 'TestCases.HotelSearchTest')
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'HotelSearchcheck')
-data.setCell(4, 2, 'TestCases.HotelSearchTest')
-data.setCell(4, 3, 4368);
+data.setCell(4, 1, 'FlightSearchLogTest')
+data.setCell(4, 2, 'TestCases.SearchPageTest')
+data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'HotelSearchPageTitleTest')
-data.setCell(5, 2, 'TestCases.HotelSearchTest')
-data.setCell(5, 3, 336);
+data.setCell(5, 1, 'MultipleSearch')
+data.setCell(5, 2, 'TestCases.MultipleSearchTest')
+data.setCell(5, 3, 0);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'FlightSearchLogTest')
-data.setCell(6, 2, 'TestCases.SearchPageTest')
-data.setCell(6, 3, 155);
+data.setCell(6, 1, 'HotelSearchPageTitleTest')
+data.setCell(6, 2, 'TestCases.HotelSearchTest')
+data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'SearchPageTitleTest')
+data.setCell(7, 1, 'OnewaySearchTest')
 data.setCell(7, 2, 'TestCases.SearchPageTest')
-data.setCell(7, 3, 35);
+data.setCell(7, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -396,121 +811,80 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.MultipleSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">MultipleSearch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MultipleSearch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MultipleSearch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SearchPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SearchPageTitleTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.HotelSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HotelSearchPageTitleTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SearchPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FlightSearchLogTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.HotelSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HotelSearchcheck</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SearchPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">OnewaySearchTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.MultipleSearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">MultipleSearch(Hyderabad (HYD), Goa (GOI))</span>
-                <span class="method-start">22129 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">39149 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup</span>
-                <span class="method-start">39996 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">MultipleSearch(Hyderabad (HYD), Delhi (DEL))</span>
-                <span class="method-start">57826 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">73827 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup</span>
-                <span class="method-start">74649 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">MultipleSearch(Hyderabad (HYD), Tirupati (TIR))</span>
-                <span class="method-start">92891 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">109008 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.SearchPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">Setup</span>
-                <span class="method-start">109840 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">SearchPageTitleTest</span>
-                <span class="method-start">128701 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">129722 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-name">Setup</span>
+                <span class="method-start">4780 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.HotelSearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">Setup</span>
-                <span class="method-start">130533 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">HotelSearchPageTitleTest</span>
-                <span class="method-start">150800 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">152008 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestCases.SearchPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">152794 ms</span>
+                <span class="method-start">6448 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">FlightSearchLogTest</span>
-                <span class="method-start">173387 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">173544 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestCases.HotelSearchTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup</span>
-                <span class="method-start">174441 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">HotelSearchcheck</span>
-                <span class="method-start">191669 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">196042 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestCases.SearchPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup</span>
-                <span class="method-start">196833 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">OnewaySearchTest</span>
-                <span class="method-start">214968 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">TearDown</span>
-                <span class="method-start">230519 ms</span>
-              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

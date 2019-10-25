@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
 import Base.BaseClass;
 
 public class FlightSearch extends BaseClass {
@@ -28,10 +30,10 @@ public class FlightSearch extends BaseClass {
 	@FindBy(id = "ctl00_mainContent_view_date1")
 	WebElement DatePicker;
 
-	@FindBy(xpath = "/html[1]/body[1]/form[1]/div[4]/div[2]/div[1]/div[5]/div[2]/div[2]/div[2]/div[3]/div[1]/div[6]/div[2]")
+	@FindBy(xpath = "/html[1]/body[1]/form[1]/div[4]/div[2]/div[1]/div[5]/div[2]/div[2]/div[2]/div[3]/div[1]/div[6]/div[1]")
 	WebElement Passengers;
 
-	@FindBy(xpath = "/html[1]/body[1]/form[1]/div[4]/div[2]/div[1]/div[5]/div[2]/div[2]/div[2]/div[3]/div[1]/div[6]/div[3]/div[1]/div[2]/span[3]")
+	@FindBy(xpath = "/html[1]/body[1]/form[1]/div[4]/div[2]/div[1]/div[5]/div[2]/div[2]/div[2]/div[3]/div[1]/div[6]/div[2]/div[2]/p[1]/select[1]")
 	WebElement Adult;
 
 	@FindBy(xpath = "//select[@id='ctl00_mainContent_DropDownListCurrency']")
@@ -92,7 +94,8 @@ public class FlightSearch extends BaseClass {
 		Thread.sleep(1000);
 		Passengers.click();
 		Thread.sleep(1000);
-		Adult.click();
+		Select sel1=new Select(Adult);
+		sel1.selectByValue("2");
 		Thread.sleep(1000);
 		SearchButton.click();
 	}

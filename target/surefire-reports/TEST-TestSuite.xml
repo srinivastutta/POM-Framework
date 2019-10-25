@@ -1,111 +1,336 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="234.473" tests="8" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.49" tests="24" errors="0" skipped="21" failures="3">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
-    <property name="java.vm.version" value="25.181-b13"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\Selenium\Workspace\POMwithDataDrivenFramework"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="IN"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\Selenium\Workspace\POMwithDataDrivenFramework"/>
-    <property name="java.runtime.version" value="1.8.0_181-b13"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\pc\AppData\Local\Temp\"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\allure-2.12.1\bin;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;;."/>
-    <property name="maven.conf" value="C:\apache-maven-3.6.2\bin\../conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\pc"/>
-    <property name="user.timezone" value="Africa/Harare"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="pc"/>
-    <property name="java.class.path" value="C:\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_181"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp850"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\apache-maven-3.6.2\bin\.."/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp850"/>
-    <property name="sun.desktop" value="windows"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SpiceJetJob/7/display/redirect"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SpiceJetJob/7/display/redirect?page=changes"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3b2477987de142d4"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="USERNAME" value="DESKTOP-6NI868R$"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.6.2 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.35.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 52408"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.2"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="POM_GROUPID" value="POMwithDataDrivenFramework"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="PATH+MAVEN" value="C:\apache-maven-3.6.2/bin"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.4+10-LTS"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.4"/>
+    <property name="user.name" value="DESKTOP-6NI868R$"/>
+    <property name="POM_ARTIFACTID" value="POMwithDataDrivenFramework"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\SpiceJetJob"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-11.0.4/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\allure-2.12.1\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="11.0.4"/>
+    <property name="COMPUTERNAME" value="DESKTOP-6NI868R"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JOB_BASE_NAME" value="SpiceJetJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.6.2/bin;C:\Program Files\Java\jdk-11.0.4/bin;C:\Program Files\Java\jdk-11.0.4/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\allure-2.12.1\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/SpiceJetJob/7/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="POM_DISPLAYNAME" value="POMwithDataDrivenFramework"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/SpiceJetJob/"/>
+    <property name="SynaProgDir" value="Synaptics\SynTP"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.6.2\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.6.2/conf/logging"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="user.variant" value=""/>
+    <property name="MAVEN_HOME" value="C:\apache-maven-3.6.2"/>
+    <property name="user.timezone" value="Africa/Harare"/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.2\conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="BUILD_TAG" value="jenkins-SpiceJetJob-7"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/SpiceJetJob/display/redirect"/>
+    <property name="M2_HOME" value="C:\apache-maven-3.6.2"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="path.separator" value=";"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="os.version" value="10.0"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="JOB_NAME" value="SpiceJetJob"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-11.0.4/bin"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="user.dir" value="E:\Selenium\Workspace\POMwithDataDrivenFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3b2477987de142d4"/>
+    <property name="PROCESSOR_REVISION" value="4e03"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.4+10-LTS"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="MultipleSearch" classname="TestCases.MultipleSearchTest" time="16.991"/>
-  <testcase name="MultipleSearch" classname="TestCases.MultipleSearchTest" time="15.981"/>
-  <testcase name="MultipleSearch" classname="TestCases.MultipleSearchTest" time="16.109"/>
-  <testcase name="SearchPageTitleTest" classname="TestCases.SearchPageTest" time="0.993">
-    <failure message="expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]" type="java.lang.AssertionError">java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
-	at TestCases.SearchPageTest.SearchPageTitleTest(SearchPageTest.java:39)
+  <testcase name="Setup" classname="TestCases.MultipleSearchTest" time="7.781">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00597C93+1473683]&#10;	Ordinal0 [0x0051ADB1+961969]&#10;	Ordinal0 [0x004A42E3+475875]&#10;	Ordinal0 [0x0043F365+62309]&#10;	Ordinal0 [0x0043BC77+48247]&#10;	Ordinal0 [0x00459149+168265]&#10;	Ordinal0 [0x00458D1D+167197]&#10;	Ordinal0 [0x0045742B+160811]&#10;	Ordinal0 [0x00440AE6+68326]&#10;	Ordinal0 [0x00441BF0+72688]&#10;	Ordinal0 [0x00441B89+72585]&#10;	Ordinal0 [0x00534B77+1067895]&#10;	GetHandleVerifier [0x00636875+506677]&#10;	GetHandleVerifier [0x00636610+506064]&#10;	GetHandleVerifier [0x0063D1B8+533624]&#10;	GetHandleVerifier [0x0063704A+508682]&#10;	Ordinal0 [0x0052C266+1032806]&#10;	Ordinal0 [0x0052C0DF+1032415]&#10;	Ordinal0 [0x00536A8B+1075851]&#10;	Ordinal0 [0x00536BF3+1076211]&#10;	Ordinal0 [0x00535BA5+1072037]&#10;	BaseThreadInitThunk [0x76C56359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6NI868R', ip: '192.168.8.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at TestCases.MultipleSearchTest.Setup(MultipleSearchTest.java:31)
 </failure>
-    <system-out><![CDATA[I am in onTestStart method SearchPageTitleTest start
-SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets
-I am in onTestFailure method SearchPageTitleTest failed
-Screenshot captured for test case:SearchPageTitleTest
+    <system-out><![CDATA[I am in onStart method Test
+Number of rows are : 4
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 47468
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 31345
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1570457273.451][WARNING]: This version of ChromeDriver has not been tested with Chrome version 77.
-[1570457275.470][WARNING]: Timed out connecting to Chrome, retrying...
-Oct 07, 2019 4:07:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1570457279.601][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
   </testcase>
-  <testcase name="HotelSearchPageTitleTest" classname="TestCases.HotelSearchTest" time="1.194">
-    <failure message="expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]" type="java.lang.AssertionError">java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
-	at TestCases.HotelSearchTest.HotelSearchPageTitleTest(HotelSearchTest.java:37)
-</failure>
-    <system-out><![CDATA[I am in onTestStart method HotelSearchPageTitleTest start
-SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets
-I am in onTestFailure method HotelSearchPageTitleTest failed
-Screenshot captured for test case:HotelSearchPageTitleTest
+  <testcase name="Setup" classname="TestCases.MultipleSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Setup" classname="TestCases.MultipleSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="MultipleSearch" classname="TestCases.MultipleSearchTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00597C93+1473683]&#10;	Ordinal0 [0x0051ADB1+961969]&#10;	Ordinal0 [0x004A42E3+475875]&#10;	Ordinal0 [0x0043F365+62309]&#10;	Ordinal0 [0x0043BC77+48247]&#10;	Ordinal0 [0x00459149+168265]&#10;	Ordinal0 [0x00458D1D+167197]&#10;	Ordinal0 [0x0045742B+160811]&#10;	Ordinal0 [0x00440AE6+68326]&#10;	Ordinal0 [0x00441BF0+72688]&#10;	Ordinal0 [0x00441B89+72585]&#10;	Ordinal0 [0x00534B77+1067895]&#10;	GetHandleVerifier [0x00636875+506677]&#10;	GetHandleVerifier [0x00636610+506064]&#10;	GetHandleVerifier [0x0063D1B8+533624]&#10;	GetHandleVerifier [0x0063704A+508682]&#10;	Ordinal0 [0x0052C266+1032806]&#10;	Ordinal0 [0x0052C0DF+1032415]&#10;	Ordinal0 [0x00536A8B+1075851]&#10;	Ordinal0 [0x00536BF3+1076211]&#10;	Ordinal0 [0x00535BA5+1072037]&#10;	BaseThreadInitThunk [0x76C56359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]&#10;"/>
+    <system-out><![CDATA[I am in onTestSkipped method MultipleSearch skipped
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 12614
+  </testcase>
+  <testcase name="MultipleSearch" classname="TestCases.MultipleSearchTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00597C93+1473683]&#10;	Ordinal0 [0x0051ADB1+961969]&#10;	Ordinal0 [0x004A42E3+475875]&#10;	Ordinal0 [0x0043F365+62309]&#10;	Ordinal0 [0x0043BC77+48247]&#10;	Ordinal0 [0x00459149+168265]&#10;	Ordinal0 [0x00458D1D+167197]&#10;	Ordinal0 [0x0045742B+160811]&#10;	Ordinal0 [0x00440AE6+68326]&#10;	Ordinal0 [0x00441BF0+72688]&#10;	Ordinal0 [0x00441B89+72585]&#10;	Ordinal0 [0x00534B77+1067895]&#10;	GetHandleVerifier [0x00636875+506677]&#10;	GetHandleVerifier [0x00636610+506064]&#10;	GetHandleVerifier [0x0063D1B8+533624]&#10;	GetHandleVerifier [0x0063704A+508682]&#10;	Ordinal0 [0x0052C266+1032806]&#10;	Ordinal0 [0x0052C0DF+1032415]&#10;	Ordinal0 [0x00536A8B+1075851]&#10;	Ordinal0 [0x00536BF3+1076211]&#10;	Ordinal0 [0x00535BA5+1072037]&#10;	BaseThreadInitThunk [0x76C56359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]&#10;"/>
+    <system-out><![CDATA[I am in onTestSkipped method MultipleSearch skipped
+]]></system-out>
+  </testcase>
+  <testcase name="MultipleSearch" classname="TestCases.MultipleSearchTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00597C93+1473683]&#10;	Ordinal0 [0x0051ADB1+961969]&#10;	Ordinal0 [0x004A42E3+475875]&#10;	Ordinal0 [0x0043F365+62309]&#10;	Ordinal0 [0x0043BC77+48247]&#10;	Ordinal0 [0x00459149+168265]&#10;	Ordinal0 [0x00458D1D+167197]&#10;	Ordinal0 [0x0045742B+160811]&#10;	Ordinal0 [0x00440AE6+68326]&#10;	Ordinal0 [0x00441BF0+72688]&#10;	Ordinal0 [0x00441B89+72585]&#10;	Ordinal0 [0x00534B77+1067895]&#10;	GetHandleVerifier [0x00636875+506677]&#10;	GetHandleVerifier [0x00636610+506064]&#10;	GetHandleVerifier [0x0063D1B8+533624]&#10;	GetHandleVerifier [0x0063704A+508682]&#10;	Ordinal0 [0x0052C266+1032806]&#10;	Ordinal0 [0x0052C0DF+1032415]&#10;	Ordinal0 [0x00536A8B+1075851]&#10;	Ordinal0 [0x00536BF3+1076211]&#10;	Ordinal0 [0x00535BA5+1072037]&#10;	BaseThreadInitThunk [0x76C56359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]&#10;"/>
+    <system-out><![CDATA[I am in onTestSkipped method MultipleSearch skipped
+]]></system-out>
+  </testcase>
+  <testcase name="TearDown" classname="TestCases.MultipleSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="TearDown" classname="TestCases.MultipleSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="TearDown" classname="TestCases.MultipleSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Setup" classname="TestCases.SearchPageTest" time="9.552">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00597C93+1473683]&#10;	Ordinal0 [0x0051ADB1+961969]&#10;	Ordinal0 [0x004A42E3+475875]&#10;	Ordinal0 [0x0043F365+62309]&#10;	Ordinal0 [0x0043BC77+48247]&#10;	Ordinal0 [0x00459149+168265]&#10;	Ordinal0 [0x00458D1D+167197]&#10;	Ordinal0 [0x0045742B+160811]&#10;	Ordinal0 [0x00440AE6+68326]&#10;	Ordinal0 [0x00441BF0+72688]&#10;	Ordinal0 [0x00441B89+72585]&#10;	Ordinal0 [0x00534B77+1067895]&#10;	GetHandleVerifier [0x00636875+506677]&#10;	GetHandleVerifier [0x00636610+506064]&#10;	GetHandleVerifier [0x0063D1B8+533624]&#10;	GetHandleVerifier [0x0063704A+508682]&#10;	Ordinal0 [0x0052C266+1032806]&#10;	Ordinal0 [0x0052C0DF+1032415]&#10;	Ordinal0 [0x00536A8B+1075851]&#10;	Ordinal0 [0x00536BF3+1076211]&#10;	Ordinal0 [0x00535BA5+1072037]&#10;	BaseThreadInitThunk [0x76C56359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6NI868R', ip: '192.168.8.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at TestCases.SearchPageTest.Setup(SearchPageTest.java:28)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 10950
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1570457294.275][WARNING]: This version of ChromeDriver has not been tested with Chrome version 77.
-[1570457296.312][WARNING]: Timed out connecting to Chrome, retrying...
-Oct 07, 2019 4:08:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1570457300.454][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
   </testcase>
-  <testcase name="FlightSearchLogTest" classname="TestCases.SearchPageTest" time="0.151"/>
-  <testcase name="HotelSearchcheck" classname="TestCases.HotelSearchTest" time="4.366"/>
-  <testcase name="OnewaySearchTest" classname="TestCases.SearchPageTest" time="15.538"/>
+  <testcase name="Setup" classname="TestCases.SearchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Setup" classname="TestCases.SearchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="SearchPageTitleTest" classname="TestCases.SearchPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00597C93+1473683]&#10;	Ordinal0 [0x0051ADB1+961969]&#10;	Ordinal0 [0x004A42E3+475875]&#10;	Ordinal0 [0x0043F365+62309]&#10;	Ordinal0 [0x0043BC77+48247]&#10;	Ordinal0 [0x00459149+168265]&#10;	Ordinal0 [0x00458D1D+167197]&#10;	Ordinal0 [0x0045742B+160811]&#10;	Ordinal0 [0x00440AE6+68326]&#10;	Ordinal0 [0x00441BF0+72688]&#10;	Ordinal0 [0x00441B89+72585]&#10;	Ordinal0 [0x00534B77+1067895]&#10;	GetHandleVerifier [0x00636875+506677]&#10;	GetHandleVerifier [0x00636610+506064]&#10;	GetHandleVerifier [0x0063D1B8+533624]&#10;	GetHandleVerifier [0x0063704A+508682]&#10;	Ordinal0 [0x0052C266+1032806]&#10;	Ordinal0 [0x0052C0DF+1032415]&#10;	Ordinal0 [0x00536A8B+1075851]&#10;	Ordinal0 [0x00536BF3+1076211]&#10;	Ordinal0 [0x00535BA5+1072037]&#10;	BaseThreadInitThunk [0x76C56359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]&#10;"/>
+    <system-out><![CDATA[I am in onTestSkipped method SearchPageTitleTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="TearDown" classname="TestCases.SearchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="TearDown" classname="TestCases.SearchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="TearDown" classname="TestCases.SearchPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Setup" classname="TestCases.HotelSearchTest" time="10.999">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00597C93+1473683]&#10;	Ordinal0 [0x0051ADB1+961969]&#10;	Ordinal0 [0x004A42E3+475875]&#10;	Ordinal0 [0x0043F365+62309]&#10;	Ordinal0 [0x0043BC77+48247]&#10;	Ordinal0 [0x00459149+168265]&#10;	Ordinal0 [0x00458D1D+167197]&#10;	Ordinal0 [0x0045742B+160811]&#10;	Ordinal0 [0x00440AE6+68326]&#10;	Ordinal0 [0x00441BF0+72688]&#10;	Ordinal0 [0x00441B89+72585]&#10;	Ordinal0 [0x00534B77+1067895]&#10;	GetHandleVerifier [0x00636875+506677]&#10;	GetHandleVerifier [0x00636610+506064]&#10;	GetHandleVerifier [0x0063D1B8+533624]&#10;	GetHandleVerifier [0x0063704A+508682]&#10;	Ordinal0 [0x0052C266+1032806]&#10;	Ordinal0 [0x0052C0DF+1032415]&#10;	Ordinal0 [0x00536A8B+1075851]&#10;	Ordinal0 [0x00536BF3+1076211]&#10;	Ordinal0 [0x00535BA5+1072037]&#10;	BaseThreadInitThunk [0x76C56359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6NI868R', ip: '192.168.8.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at TestCases.HotelSearchTest.Setup(HotelSearchTest.java:26)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 31992
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="Setup" classname="TestCases.HotelSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="HotelSearchPageTitleTest" classname="TestCases.HotelSearchTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00597C93+1473683]&#10;	Ordinal0 [0x0051ADB1+961969]&#10;	Ordinal0 [0x004A42E3+475875]&#10;	Ordinal0 [0x0043F365+62309]&#10;	Ordinal0 [0x0043BC77+48247]&#10;	Ordinal0 [0x00459149+168265]&#10;	Ordinal0 [0x00458D1D+167197]&#10;	Ordinal0 [0x0045742B+160811]&#10;	Ordinal0 [0x00440AE6+68326]&#10;	Ordinal0 [0x00441BF0+72688]&#10;	Ordinal0 [0x00441B89+72585]&#10;	Ordinal0 [0x00534B77+1067895]&#10;	GetHandleVerifier [0x00636875+506677]&#10;	GetHandleVerifier [0x00636610+506064]&#10;	GetHandleVerifier [0x0063D1B8+533624]&#10;	GetHandleVerifier [0x0063704A+508682]&#10;	Ordinal0 [0x0052C266+1032806]&#10;	Ordinal0 [0x0052C0DF+1032415]&#10;	Ordinal0 [0x00536A8B+1075851]&#10;	Ordinal0 [0x00536BF3+1076211]&#10;	Ordinal0 [0x00535BA5+1072037]&#10;	BaseThreadInitThunk [0x76C56359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]&#10;"/>
+    <system-out><![CDATA[I am in onTestSkipped method HotelSearchPageTitleTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="TearDown" classname="TestCases.HotelSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="TearDown" classname="TestCases.HotelSearchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="FlightSearchLogTest" classname="TestCases.SearchPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00597C93+1473683]&#10;	Ordinal0 [0x0051ADB1+961969]&#10;	Ordinal0 [0x004A42E3+475875]&#10;	Ordinal0 [0x0043F365+62309]&#10;	Ordinal0 [0x0043BC77+48247]&#10;	Ordinal0 [0x00459149+168265]&#10;	Ordinal0 [0x00458D1D+167197]&#10;	Ordinal0 [0x0045742B+160811]&#10;	Ordinal0 [0x00440AE6+68326]&#10;	Ordinal0 [0x00441BF0+72688]&#10;	Ordinal0 [0x00441B89+72585]&#10;	Ordinal0 [0x00534B77+1067895]&#10;	GetHandleVerifier [0x00636875+506677]&#10;	GetHandleVerifier [0x00636610+506064]&#10;	GetHandleVerifier [0x0063D1B8+533624]&#10;	GetHandleVerifier [0x0063704A+508682]&#10;	Ordinal0 [0x0052C266+1032806]&#10;	Ordinal0 [0x0052C0DF+1032415]&#10;	Ordinal0 [0x00536A8B+1075851]&#10;	Ordinal0 [0x00536BF3+1076211]&#10;	Ordinal0 [0x00535BA5+1072037]&#10;	BaseThreadInitThunk [0x76C56359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]&#10;"/>
+    <system-out><![CDATA[I am in onTestSkipped method FlightSearchLogTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="HotelSearchcheck" classname="TestCases.HotelSearchTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00597C93+1473683]&#10;	Ordinal0 [0x0051ADB1+961969]&#10;	Ordinal0 [0x004A42E3+475875]&#10;	Ordinal0 [0x0043F365+62309]&#10;	Ordinal0 [0x0043BC77+48247]&#10;	Ordinal0 [0x00459149+168265]&#10;	Ordinal0 [0x00458D1D+167197]&#10;	Ordinal0 [0x0045742B+160811]&#10;	Ordinal0 [0x00440AE6+68326]&#10;	Ordinal0 [0x00441BF0+72688]&#10;	Ordinal0 [0x00441B89+72585]&#10;	Ordinal0 [0x00534B77+1067895]&#10;	GetHandleVerifier [0x00636875+506677]&#10;	GetHandleVerifier [0x00636610+506064]&#10;	GetHandleVerifier [0x0063D1B8+533624]&#10;	GetHandleVerifier [0x0063704A+508682]&#10;	Ordinal0 [0x0052C266+1032806]&#10;	Ordinal0 [0x0052C0DF+1032415]&#10;	Ordinal0 [0x00536A8B+1075851]&#10;	Ordinal0 [0x00536BF3+1076211]&#10;	Ordinal0 [0x00535BA5+1072037]&#10;	BaseThreadInitThunk [0x76C56359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]&#10;"/>
+    <system-out><![CDATA[I am in onTestSkipped method HotelSearchcheck skipped
+]]></system-out>
+  </testcase>
+  <testcase name="OnewaySearchTest" classname="TestCases.SearchPageTest" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 76&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;192.168.8.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00597C93+1473683]&#10;	Ordinal0 [0x0051ADB1+961969]&#10;	Ordinal0 [0x004A42E3+475875]&#10;	Ordinal0 [0x0043F365+62309]&#10;	Ordinal0 [0x0043BC77+48247]&#10;	Ordinal0 [0x00459149+168265]&#10;	Ordinal0 [0x00458D1D+167197]&#10;	Ordinal0 [0x0045742B+160811]&#10;	Ordinal0 [0x00440AE6+68326]&#10;	Ordinal0 [0x00441BF0+72688]&#10;	Ordinal0 [0x00441B89+72585]&#10;	Ordinal0 [0x00534B77+1067895]&#10;	GetHandleVerifier [0x00636875+506677]&#10;	GetHandleVerifier [0x00636610+506064]&#10;	GetHandleVerifier [0x0063D1B8+533624]&#10;	GetHandleVerifier [0x0063704A+508682]&#10;	Ordinal0 [0x0052C266+1032806]&#10;	Ordinal0 [0x0052C0DF+1032415]&#10;	Ordinal0 [0x00536A8B+1075851]&#10;	Ordinal0 [0x00536BF3+1076211]&#10;	Ordinal0 [0x00535BA5+1072037]&#10;	BaseThreadInitThunk [0x76C56359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]&#10;"/>
+    <system-out><![CDATA[I am in onTestSkipped method OnewaySearchTest skipped
+]]></system-out>
+  </testcase>
 </testsuite>

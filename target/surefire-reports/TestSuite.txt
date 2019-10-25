@@ -1,12 +1,106 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 234.473 s <<< FAILURE! - in TestSuite
-SearchPageTitleTest(TestCases.SearchPageTest)  Time elapsed: 0.993 s  <<< FAILURE!
-java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
-	at TestCases.SearchPageTest.SearchPageTitleTest(SearchPageTest.java:39)
+Tests run: 24, Failures: 3, Errors: 0, Skipped: 21, Time elapsed: 11.49 s <<< FAILURE! - in TestSuite
+Setup(TestCases.MultipleSearchTest)  Time elapsed: 7.781 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6NI868R', ip: '192.168.8.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
 
-HotelSearchPageTitleTest(TestCases.HotelSearchTest)  Time elapsed: 1.194 s  <<< FAILURE!
-java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
-	at TestCases.HotelSearchTest.HotelSearchPageTitleTest(HotelSearchTest.java:37)
+	at TestCases.MultipleSearchTest.Setup(MultipleSearchTest.java:31)
+
+Setup(TestCases.SearchPageTest)  Time elapsed: 9.552 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6NI868R', ip: '192.168.8.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at TestCases.SearchPageTest.Setup(SearchPageTest.java:28)
+
+Setup(TestCases.HotelSearchTest)  Time elapsed: 10.999 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6NI868R', ip: '192.168.8.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00597C93+1473683]
+	Ordinal0 [0x0051ADB1+961969]
+	Ordinal0 [0x004A42E3+475875]
+	Ordinal0 [0x0043F365+62309]
+	Ordinal0 [0x0043BC77+48247]
+	Ordinal0 [0x00459149+168265]
+	Ordinal0 [0x00458D1D+167197]
+	Ordinal0 [0x0045742B+160811]
+	Ordinal0 [0x00440AE6+68326]
+	Ordinal0 [0x00441BF0+72688]
+	Ordinal0 [0x00441B89+72585]
+	Ordinal0 [0x00534B77+1067895]
+	GetHandleVerifier [0x00636875+506677]
+	GetHandleVerifier [0x00636610+506064]
+	GetHandleVerifier [0x0063D1B8+533624]
+	GetHandleVerifier [0x0063704A+508682]
+	Ordinal0 [0x0052C266+1032806]
+	Ordinal0 [0x0052C0DF+1032415]
+	Ordinal0 [0x00536A8B+1075851]
+	Ordinal0 [0x00536BF3+1076211]
+	Ordinal0 [0x00535BA5+1072037]
+	BaseThreadInitThunk [0x76C56359+25]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77EC7B44+180]
+
+	at TestCases.HotelSearchTest.Setup(HotelSearchTest.java:26)
 

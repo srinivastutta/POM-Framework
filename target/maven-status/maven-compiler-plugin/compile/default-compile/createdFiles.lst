@@ -1,5 +1,7 @@
+Listener\AllureListener.class
+Util\UtilClass.class
+Listener\RetryAnalyzer.class
 Pages\FlightSearch.class
 Base\BaseClass.class
-Listener\AllureListener.class
+Listener\MyTransformer.class
 Pages\HotelSearch.class
-Util\UtilClass.class
