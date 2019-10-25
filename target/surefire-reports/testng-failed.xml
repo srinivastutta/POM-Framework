@@ -8,28 +8,18 @@
     <classes>
       <class name="TestCases.SearchPageTest">
         <methods>
-          <include name="FlightSearchLogTest"/>
           <include name="Setup"/>
-          <include name="OnewaySearchTest"/>
           <include name="SearchPageTitleTest"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- TestCases.SearchPageTest -->
       <class name="TestCases.HotelSearchTest">
         <methods>
-          <include name="HotelSearchcheck"/>
           <include name="Setup"/>
           <include name="HotelSearchPageTitleTest"/>
           <include name="TearDown"/>
         </methods>
       </class> <!-- TestCases.HotelSearchTest -->
-      <class name="TestCases.MultipleSearchTest">
-        <methods>
-          <include name="MultipleSearch"/>
-          <include name="Setup"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- TestCases.MultipleSearchTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

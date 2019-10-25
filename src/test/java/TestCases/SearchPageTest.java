@@ -36,7 +36,7 @@ public class SearchPageTest extends BaseClass{
 	public void SearchPageTitleTest() {
 		String title=flightsearch.ValidateSearchPageTitle();
 		System.out.println(title);
-		Assert.assertEquals(title, "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1");
+		Assert.assertEquals(title, "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets");
 	}
 	@Test(priority=2, description="LogoTest")
 	@Severity(SeverityLevel.NORMAL)

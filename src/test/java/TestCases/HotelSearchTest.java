@@ -34,7 +34,7 @@ public class HotelSearchTest extends BaseClass{
 	public void HotelSearchPageTitleTest() {
 		String title=hotelsearch.ValidateHotelPageTitle();
 		System.out.println(title);
-		Assert.assertEquals(title, "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1");
+		Assert.assertEquals(title, "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets");
 	}
 	
 	@Test(priority=2, description="HotelSearchTest")
