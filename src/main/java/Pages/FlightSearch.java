@@ -70,6 +70,7 @@ public class FlightSearch extends BaseClass {
 		To.clear();
 		Thread.sleep(1000);
 		To.sendKeys(ArvCity);
+		Thread.sleep(1000);
 		DatePicker.click();
 		while (true) {// Take xpath of month and store in variable, so it will check to current month
 			// to given month
