@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" parallel="false" preserve-order="true">
 
-	<listeners>
-		<listener class-name="Listener.MyTransformer" />
-	</listeners>
-
-	<test thread-count="5" name="Test">
+	<test name="Test1">
 		<classes>
+			<class name="TestCases.FlightStatusTest" />
 			<class name="TestCases.SearchPageTest" />
-			<class name="TestCases.HotelSearchTest" />
-			<class name="TestCases.MultipleSearchTest" />
 		</classes>
 	</test> <!-- Test -->
+
+	<test name="Test2">
+		<classes>
+			<class name="TestCases.MultipleSearchTest" />
+			<class name="TestCases.HotelSearchTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
 </suite> <!-- Suite -->
+
+
