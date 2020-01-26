@@ -57,9 +57,9 @@ public class HotelSearch extends BaseClass {
 		while (true) {// Take xpath of month and store in variable, so it will check to current month
 			// to given month
 			// when condition given month is equals to text, the loop will be break
-			String text = driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/span[1]")).getText();
+			String Month = driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/span[1]")).getText();
 			// System.out.println(text);
-			if (text.equals(CIMonth))
+			if (Month.equals(CIMonth))
 
 			{
 				break;

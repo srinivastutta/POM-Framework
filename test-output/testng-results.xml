@@ -2,120 +2,94 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="339190" started-at="2019-11-02T15:49:25Z" finished-at="2019-11-02T15:55:04Z">
+  <suite name="Suite" duration-ms="235808" started-at="2020-01-26T11:08:55Z" finished-at="2020-01-26T11:12:51Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="204445" started-at="2019-11-02T15:49:25Z" finished-at="2019-11-02T15:52:50Z">
+    <test name="Test1" duration-ms="137856" started-at="2020-01-26T11:08:55Z" finished-at="2020-01-26T11:11:13Z">
       <class name="TestCases.FlightStatusTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="Setup" is-config="true" duration-ms="22537" started-at="2019-11-02T15:49:25Z" finished-at="2019-11-02T15:49:48Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="Setup" is-config="true" duration-ms="17885" started-at="2020-01-26T11:08:55Z" finished-at="2020-01-26T11:09:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="FlightstatusPageTitleTest()[pri:1, instance:TestCases.FlightStatusTest@4fe767f3]" name="FlightstatusPageTitleTest" duration-ms="11735" started-at="2019-11-02T15:49:48Z" description="TitleTest" finished-at="2019-11-02T15:50:00Z">
+        <test-method status="PASS" signature="FlightstatusPageTitleTest()[pri:1, instance:TestCases.FlightStatusTest@4fe767f3]" name="FlightstatusPageTitleTest" duration-ms="6394" started-at="2020-01-26T11:09:13Z" description="TitleTest" finished-at="2020-01-26T11:09:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FlightstatusPageTitleTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="TearDown" is-config="true" duration-ms="819" started-at="2019-11-02T15:50:00Z" finished-at="2019-11-02T15:50:01Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="TearDown" is-config="true" duration-ms="929" started-at="2020-01-26T11:09:20Z" finished-at="2020-01-26T11:09:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="Setup" is-config="true" duration-ms="25071" started-at="2019-11-02T15:50:18Z" finished-at="2019-11-02T15:50:43Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="Setup" is-config="true" duration-ms="15258" started-at="2020-01-26T11:09:37Z" finished-at="2020-01-26T11:09:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="FlightStatusLogoTest()[pri:2, instance:TestCases.FlightStatusTest@4fe767f3]" name="FlightStatusLogoTest" duration-ms="19733" started-at="2019-11-02T15:50:43Z" description="FlightStatusImageTest" finished-at="2019-11-02T15:51:03Z">
+        <test-method status="PASS" signature="FlightStatusLogoTest()[pri:2, instance:TestCases.FlightStatusTest@4fe767f3]" name="FlightStatusLogoTest" duration-ms="5873" started-at="2020-01-26T11:09:52Z" description="FlightStatusImageTest" finished-at="2020-01-26T11:09:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FlightStatusLogoTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="TearDown" is-config="true" duration-ms="815" started-at="2019-11-02T15:51:03Z" finished-at="2019-11-02T15:51:04Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="TearDown" is-config="true" duration-ms="856" started-at="2020-01-26T11:09:58Z" finished-at="2020-01-26T11:09:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="Setup" is-config="true" duration-ms="29903" started-at="2019-11-02T15:51:21Z" finished-at="2019-11-02T15:51:51Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="Setup" is-config="true" duration-ms="14339" started-at="2020-01-26T11:10:14Z" finished-at="2020-01-26T11:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="FlightStatusSearchTest()[pri:3, instance:TestCases.FlightStatusTest@4fe767f3]" name="FlightStatusSearchTest" duration-ms="25223" started-at="2019-11-02T15:51:51Z" description="FlightStatus Test" finished-at="2019-11-02T15:52:16Z">
+        <test-method status="PASS" signature="FlightStatusSearchTest()[pri:3, instance:TestCases.FlightStatusTest@4fe767f3]" name="FlightStatusSearchTest" duration-ms="11944" started-at="2020-01-26T11:10:28Z" description="FlightStatus Test" finished-at="2020-01-26T11:10:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FlightStatusSearchTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="TearDown" is-config="true" duration-ms="809" started-at="2019-11-02T15:52:16Z" finished-at="2019-11-02T15:52:17Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.FlightStatusTest@4fe767f3]" name="TearDown" is-config="true" duration-ms="863" started-at="2020-01-26T11:10:40Z" finished-at="2020-01-26T11:10:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- TestCases.FlightStatusTest -->
       <class name="TestCases.SearchPageTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="Setup" is-config="true" duration-ms="16102" started-at="2019-11-02T15:50:01Z" finished-at="2019-11-02T15:50:17Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="Setup" is-config="true" duration-ms="14240" started-at="2020-01-26T11:09:21Z" finished-at="2020-01-26T11:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="SearchPageTitleTest()[pri:1, instance:TestCases.SearchPageTest@2805c96b]" name="SearchPageTitleTest" duration-ms="43" started-at="2019-11-02T15:50:17Z" description="TitleTest" finished-at="2019-11-02T15:50:17Z">
+        <test-method status="PASS" signature="SearchPageTitleTest()[pri:1, instance:TestCases.SearchPageTest@2805c96b]" name="SearchPageTitleTest" duration-ms="47" started-at="2020-01-26T11:09:35Z" description="TitleTest" finished-at="2020-01-26T11:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchPageTitleTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="TearDown" is-config="true" duration-ms="783" started-at="2019-11-02T15:50:17Z" finished-at="2019-11-02T15:50:18Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="TearDown" is-config="true" duration-ms="1236" started-at="2020-01-26T11:09:35Z" finished-at="2020-01-26T11:09:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="Setup" is-config="true" duration-ms="15325" started-at="2019-11-02T15:51:04Z" finished-at="2019-11-02T15:51:20Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="Setup" is-config="true" duration-ms="13865" started-at="2020-01-26T11:09:59Z" finished-at="2020-01-26T11:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="FlightSearchLogTest()[pri:2, instance:TestCases.SearchPageTest@2805c96b]" name="FlightSearchLogTest" duration-ms="76" started-at="2019-11-02T15:51:20Z" description="LogoTest" finished-at="2019-11-02T15:51:20Z">
+        <test-method status="PASS" signature="FlightSearchLogTest()[pri:2, instance:TestCases.SearchPageTest@2805c96b]" name="FlightSearchLogTest" duration-ms="169" started-at="2020-01-26T11:10:13Z" description="LogoTest" finished-at="2020-01-26T11:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FlightSearchLogTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="TearDown" is-config="true" duration-ms="904" started-at="2019-11-02T15:51:20Z" finished-at="2019-11-02T15:51:21Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="TearDown" is-config="true" duration-ms="1161" started-at="2020-01-26T11:10:13Z" finished-at="2020-01-26T11:10:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="Setup" is-config="true" duration-ms="15434" started-at="2019-11-02T15:52:17Z" finished-at="2019-11-02T15:52:33Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="Setup" is-config="true" duration-ms="13683" started-at="2020-01-26T11:10:41Z" finished-at="2020-01-26T11:10:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="OnewaySearchTest()[pri:3, instance:TestCases.SearchPageTest@2805c96b]" name="OnewaySearchTest" duration-ms="16003" started-at="2019-11-02T15:52:33Z" description="OnewaySearch Test" finished-at="2019-11-02T15:52:49Z">
+        <test-method status="PASS" signature="OnewaySearchTest()[pri:3, instance:TestCases.SearchPageTest@2805c96b]" name="OnewaySearchTest" duration-ms="16619" started-at="2020-01-26T11:10:55Z" description="OnewaySearch Test" finished-at="2020-01-26T11:11:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OnewaySearchTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="TearDown" is-config="true" duration-ms="814" started-at="2019-11-02T15:52:49Z" finished-at="2019-11-02T15:52:50Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.SearchPageTest@2805c96b]" name="TearDown" is-config="true" duration-ms="925" started-at="2020-01-26T11:11:12Z" finished-at="2020-01-26T11:11:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- TestCases.SearchPageTest -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="134582" started-at="2019-11-02T15:52:50Z" finished-at="2019-11-02T15:55:04Z">
-      <class name="TestCases.HotelSearchTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.HotelSearchTest@6b26e945]" name="Setup" is-config="true" duration-ms="15483" started-at="2019-11-02T15:54:28Z" finished-at="2019-11-02T15:54:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="HotelSearchPageTitleTest()[pri:1, instance:TestCases.HotelSearchTest@6b26e945]" name="HotelSearchPageTitleTest" duration-ms="12" started-at="2019-11-02T15:54:44Z" description="TitleTest" finished-at="2019-11-02T15:54:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HotelSearchPageTitleTest -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.HotelSearchTest@6b26e945]" name="TearDown" is-config="true" duration-ms="1164" started-at="2019-11-02T15:54:44Z" finished-at="2019-11-02T15:54:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.HotelSearchTest@6b26e945]" name="Setup" is-config="true" duration-ms="15230" started-at="2019-11-02T15:54:45Z" finished-at="2019-11-02T15:55:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="HotelSearchcheck()[pri:2, instance:TestCases.HotelSearchTest@6b26e945]" name="HotelSearchcheck" duration-ms="2916" started-at="2019-11-02T15:55:00Z" description="HotelSearchTest" finished-at="2019-11-02T15:55:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HotelSearchcheck -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.HotelSearchTest@6b26e945]" name="TearDown" is-config="true" duration-ms="974" started-at="2019-11-02T15:55:03Z" finished-at="2019-11-02T15:55:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- TestCases.HotelSearchTest -->
+    <test name="Test2" duration-ms="97679" started-at="2020-01-26T11:11:13Z" finished-at="2020-01-26T11:12:51Z">
       <class name="TestCases.MultipleSearchTest">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="Setup" is-config="true" duration-ms="35315" started-at="2019-11-02T15:52:50Z" finished-at="2019-11-02T15:53:25Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="Setup" is-config="true" duration-ms="15973" started-at="2020-01-26T11:11:13Z" finished-at="2020-01-26T11:11:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="MultipleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="MultipleSearch" duration-ms="15636" started-at="2019-11-02T15:53:25Z" data-provider="GetTestData" finished-at="2019-11-02T15:53:41Z">
+        <test-method status="PASS" signature="MultipleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="MultipleSearch" duration-ms="14983" started-at="2020-01-26T11:11:29Z" data-provider="GetTestData" finished-at="2020-01-26T11:11:44Z">
           <params>
             <param index="0">
               <value>
@@ -131,15 +105,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MultipleSearch -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="TearDown" is-config="true" duration-ms="791" started-at="2019-11-02T15:53:41Z" finished-at="2019-11-02T15:53:42Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="TearDown" is-config="true" duration-ms="832" started-at="2020-01-26T11:11:44Z" finished-at="2020-01-26T11:11:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="Setup" is-config="true" duration-ms="33968" started-at="2019-11-02T15:53:42Z" finished-at="2019-11-02T15:54:16Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="Setup" is-config="true" duration-ms="13721" started-at="2020-01-26T11:11:45Z" finished-at="2020-01-26T11:11:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="MultipleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="MultipleSearch" duration-ms="11904" started-at="2019-11-02T15:54:16Z" data-provider="GetTestData" finished-at="2019-11-02T15:54:28Z">
+        <test-method status="PASS" signature="MultipleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="MultipleSearch" duration-ms="16247" started-at="2020-01-26T11:11:59Z" data-provider="GetTestData" finished-at="2020-01-26T11:12:15Z">
           <params>
             <param index="0">
               <value>
@@ -155,11 +129,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MultipleSearch -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="TearDown" is-config="true" duration-ms="763" started-at="2019-11-02T15:54:28Z" finished-at="2019-11-02T15:54:28Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.MultipleSearchTest@4df50bcc]" name="TearDown" is-config="true" duration-ms="853" started-at="2020-01-26T11:12:15Z" finished-at="2020-01-26T11:12:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- TestCases.MultipleSearchTest -->
+      <class name="TestCases.HotelSearchTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.HotelSearchTest@6b26e945]" name="Setup" is-config="true" duration-ms="13751" started-at="2020-01-26T11:12:16Z" finished-at="2020-01-26T11:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="HotelSearchPageTitleTest()[pri:1, instance:TestCases.HotelSearchTest@6b26e945]" name="HotelSearchPageTitleTest" duration-ms="47" started-at="2020-01-26T11:12:30Z" description="TitleTest" finished-at="2020-01-26T11:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelSearchPageTitleTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.HotelSearchTest@6b26e945]" name="TearDown" is-config="true" duration-ms="1164" started-at="2020-01-26T11:12:30Z" finished-at="2020-01-26T11:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestCases.HotelSearchTest@6b26e945]" name="Setup" is-config="true" duration-ms="13851" started-at="2020-01-26T11:12:31Z" finished-at="2020-01-26T11:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="HotelSearchcheck()[pri:2, instance:TestCases.HotelSearchTest@6b26e945]" name="HotelSearchcheck" duration-ms="4339" started-at="2020-01-26T11:12:45Z" description="HotelSearchTest" finished-at="2020-01-26T11:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelSearchcheck -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCases.HotelSearchTest@6b26e945]" name="TearDown" is-config="true" duration-ms="1233" started-at="2020-01-26T11:12:49Z" finished-at="2020-01-26T11:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCases.HotelSearchTest -->
     </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>
