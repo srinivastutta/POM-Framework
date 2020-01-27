@@ -4,4 +4,5 @@ Listener\RetryAnalyzer.class
 Pages\FlightSearch.class
 Base\BaseClass.class
 Listener\MyTransformer.class
+Pages\FlightStatus.class
 Pages\HotelSearch.class

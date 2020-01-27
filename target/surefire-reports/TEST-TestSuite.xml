@@ -1,265 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="475.246" tests="14" errors="0" skipped="6" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="246.663" tests="10" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8090/job/SpiceJetJob/1/display/redirect"/>
-    <property name="HUDSON_HOME" value="C:\Users\pc\.jenkins"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8090/job/SpiceJetJob/1/display/redirect?page=changes"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="=ExitCode" value="00000000"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="JENKINS_SERVER_COOKIE" value="810ecea2ebeb2b7b"/>
-    <property name="USERNAME" value="pc"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="JENKINS_URL" value="http://localhost:8090/"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.6.2 C:\Users\pc\.jenkins\war\WEB-INF\lib\remoting-3.33.jar C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 60691"/>
-    <property name="maven.home" value="C:\apache-maven-3.6.2"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2019-07-16"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
-    <property name="JENKINS_HOME" value="C:\Users\pc\.jenkins"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="HOMEPATH" value="\Users\pc"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
-    <property name="maven3.interceptor" value="C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="PATH+MAVEN" value="C:\apache-maven-3.6.2/bin"/>
-    <property name="maven3.interceptor.common" value="C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
-    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="windir" value="C:\WINDOWS"/>
-    <property name="user.script" value=""/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="11.0.4+10-LTS"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.4"/>
-    <property name="PROMPT" value="$P$G"/>
-    <property name="user.name" value="pc"/>
-    <property name="OneDrive" value="C:\Users\pc\OneDrive"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="=C:" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="APPDATA" value="C:\Users\pc\AppData\Roaming"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="HUDSON_URL" value="http://localhost:8090/"/>
-    <property name="WORKSPACE" value="C:\Users\pc\.jenkins\workspace\SpiceJetJob"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="Path" value="C:\Program Files\Java\jdk-11.0.4/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\allure-2.12.1\bin;C:\Users\pc\AppData\Local\Microsoft\WindowsApps"/>
-    <property name="java.io.tmpdir" value="C:\Users\pc\AppData\Local\Temp\"/>
-    <property name="java.version" value="11.0.4"/>
-    <property name="COMPUTERNAME" value="DESKTOP-6NI868R"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="JOB_BASE_NAME" value="SpiceJetJob"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.6.2/bin;C:\Program Files\Java\jdk-11.0.4/bin;C:\Program Files\Java\jdk-11.0.4/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\allure-2.12.1\bin;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="BUILD_NUMBER" value="1"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="BUILD_URL" value="http://localhost:8090/job/SpiceJetJob/1/"/>
-    <property name="HOMEDRIVE" value="C:"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-6NI868R"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="JOB_URL" value="http://localhost:8090/job/SpiceJetJob/"/>
-    <property name="SynaProgDir" value="Synaptics\SynTP"/>
-    <property name="java.class.path" value="C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.6.2\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.6.2/conf/logging"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
-    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
-    <property name="user.variant" value=""/>
-    <property name="MAVEN_HOME" value="C:\apache-maven-3.6.2"/>
-    <property name="user.timezone" value="Africa/Harare"/>
-    <property name="maven.conf" value="C:\apache-maven-3.6.2\conf"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Selenium\Workspace\POMwithDataDrivenFramework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="BUILD_TAG" value="jenkins-SpiceJetJob-1"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
-    <property name="user.home" value="C:\Users\pc"/>
-    <property name="user.language" value="en"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8090/job/SpiceJetJob/display/redirect"/>
-    <property name="M2_HOME" value="C:\apache-maven-3.6.2"/>
-    <property name="LOCALAPPDATA" value="C:\Users\pc\AppData\Local"/>
-    <property name="USERDOMAIN" value="DESKTOP-6NI868R"/>
-    <property name="LOGONSERVER" value="\\DESKTOP-6NI868R"/>
-    <property name="path.separator" value=";"/>
-    <property name="BUILD_ID" value="1"/>
-    <property name="os.version" value="10.0"/>
-    <property name="JOB_NAME" value="SpiceJetJob"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-11.0.4/bin"/>
-    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="OS" value="Windows_NT"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="E:\Selenium\Workspace\POMwithDataDrivenFramework"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="HUDSON_SERVER_COOKIE" value="810ecea2ebeb2b7b"/>
-    <property name="PROCESSOR_REVISION" value="4e03"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="SystemRoot" value="C:\WINDOWS"/>
-    <property name="TEMP" value="C:\Users\pc\AppData\Local\Temp"/>
+    <property name="java.io.tmpdir" value="C:\Users\pc\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\allure-2.12.1\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\nodejs\;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Users\pc\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\pc"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="pc"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vm.version" value="11.0.4+10-LTS"/>
-    <property name="USERPROFILE" value="C:\Users\pc"/>
-    <property name="TMP" value="C:\Users\pc\AppData\Local\Temp"/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="MultipleSearch" classname="TestCases.MultipleSearchTest" time="26.909"/>
-  <testcase name="MultipleSearch" classname="TestCases.MultipleSearchTest" time="28.489"/>
-  <testcase name="MultipleSearch" classname="TestCases.MultipleSearchTest" time="24.384"/>
-  <testcase name="SearchPageTitleTest" classname="TestCases.SearchPageTest" time="0">
-    <skipped message="expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]"/>
-    <system-out><![CDATA[I am in onTestStart method SearchPageTitleTest start
-SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets
-I am in onTestSkipped method SearchPageTitleTest skipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 40484
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1572011327.338][WARNING]: Timed out connecting to Chrome, retrying...
-Oct 25, 2019 3:48:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1572011331.448][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="SearchPageTitleTest" classname="TestCases.SearchPageTest" time="0">
-    <skipped message="expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]"/>
-    <system-out><![CDATA[I am in onTestStart method SearchPageTitleTest start
-SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets
-I am in onTestSkipped method SearchPageTitleTest skipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 33896
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1572011353.135][WARNING]: Timed out connecting to Chrome, retrying...
-Oct 25, 2019 3:49:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1572011357.279][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="SearchPageTitleTest" classname="TestCases.SearchPageTest" time="0">
-    <skipped message="expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]"/>
-    <system-out><![CDATA[I am in onTestStart method SearchPageTitleTest start
-SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets
-I am in onTestSkipped method SearchPageTitleTest skipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 19267
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1572011375.655][WARNING]: Timed out connecting to Chrome, retrying...
-Oct 25, 2019 3:49:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1572011379.795][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="SearchPageTitleTest" classname="TestCases.SearchPageTest" time="0.865">
-    <failure message="expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]" type="java.lang.AssertionError">java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
-	at TestCases.SearchPageTest.SearchPageTitleTest(SearchPageTest.java:39)
-</failure>
-    <system-out><![CDATA[I am in onTestStart method SearchPageTitleTest start
-SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets
-I am in onTestFailure method SearchPageTitleTest failed
-Screenshot captured for test case:SearchPageTitleTest
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 41662
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1572011400.200][WARNING]: Timed out connecting to Chrome, retrying...
-Oct 25, 2019 3:50:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1572011404.311][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="HotelSearchPageTitleTest" classname="TestCases.HotelSearchTest" time="0">
-    <skipped message="expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]"/>
-    <system-out><![CDATA[I am in onTestStart method HotelSearchPageTitleTest start
-SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets
-I am in onTestSkipped method HotelSearchPageTitleTest skipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 14906
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1572011425.143][WARNING]: Timed out connecting to Chrome, retrying...
-Oct 25, 2019 3:50:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1572011429.281][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="HotelSearchPageTitleTest" classname="TestCases.HotelSearchTest" time="0">
-    <skipped message="expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]"/>
-    <system-out><![CDATA[I am in onTestStart method HotelSearchPageTitleTest start
-SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets
-I am in onTestSkipped method HotelSearchPageTitleTest skipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 43288
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1572011449.611][WARNING]: Timed out connecting to Chrome, retrying...
-Oct 25, 2019 3:50:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1572011453.746][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="HotelSearchPageTitleTest" classname="TestCases.HotelSearchTest" time="0">
-    <skipped message="expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]"/>
-    <system-out><![CDATA[I am in onTestStart method HotelSearchPageTitleTest start
-SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets
-I am in onTestSkipped method HotelSearchPageTitleTest skipped
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 4725
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1572011475.305][WARNING]: Timed out connecting to Chrome, retrying...
-Oct 25, 2019 3:51:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1572011479.392][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="HotelSearchPageTitleTest" classname="TestCases.HotelSearchTest" time="0.75">
-    <failure message="expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]" type="java.lang.AssertionError">java.lang.AssertionError: expected [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets1] but found [SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets]
-	at TestCases.HotelSearchTest.HotelSearchPageTitleTest(HotelSearchTest.java:37)
-</failure>
-    <system-out><![CDATA[I am in onTestStart method HotelSearchPageTitleTest start
-SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets
-I am in onTestFailure method HotelSearchPageTitleTest failed
-Screenshot captured for test case:HotelSearchPageTitleTest
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 10041
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1572011510.416][WARNING]: Timed out connecting to Chrome, retrying...
-Oct 25, 2019 3:51:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1572011514.541][WARNING]: Timed out connecting to Chrome, retrying...
-]]></system-err>
-  </testcase>
-  <testcase name="FlightSearchLogTest" classname="TestCases.SearchPageTest" time="0.125"/>
-  <testcase name="HotelSearchcheck" classname="TestCases.HotelSearchTest" time="3.299"/>
-  <testcase name="OnewaySearchTest" classname="TestCases.SearchPageTest" time="16.995"/>
+  <testcase name="FlightstatusPageTitleTest" classname="TestCases.FlightStatusTest" time="5.08"/>
+  <testcase name="SearchPageTitleTest" classname="TestCases.SearchPageTest" time="0.019"/>
+  <testcase name="FlightStatusLogoTest" classname="TestCases.FlightStatusTest" time="7.595"/>
+  <testcase name="FlightSearchLogTest" classname="TestCases.SearchPageTest" time="0.094"/>
+  <testcase name="FlightStatusSearchTest" classname="TestCases.FlightStatusTest" time="12.013"/>
+  <testcase name="OnewaySearchTest" classname="TestCases.SearchPageTest" time="16.345"/>
+  <testcase name="MultipleSearch" classname="TestCases.MultipleSearchTest" time="15.771"/>
+  <testcase name="MultipleSearch" classname="TestCases.MultipleSearchTest" time="17.138"/>
+  <testcase name="HotelSearchPageTitleTest" classname="TestCases.HotelSearchTest" time="0.022"/>
+  <testcase name="HotelSearchcheck" classname="TestCases.HotelSearchTest" time="2.995"/>
 </testsuite>

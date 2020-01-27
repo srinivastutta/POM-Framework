@@ -1,3 +1,4 @@
-TestCases\HotelSearchTest.class
 TestCases\MultipleSearchTest.class
+TestCases\FlightStatusTest.class
 TestCases\SearchPageTest.class
+TestCases\HotelSearchTest.class
