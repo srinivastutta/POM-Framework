@@ -26,7 +26,7 @@ public class BaseClass extends UtilClass{
 	public WebDriver initialization() {
 		String browsername = prop.getProperty("browser");
 		if (browsername.equals("chrome")) {
-        	System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Selenium Setup Files\\chromedriver_win32\\chromedriver.exe");
+        	System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Workspace\\POMwithDataDrivenFramework\\src\\main\\resources\\chromedriver.exe");
 			driver = new ChromeDriver();
 			
 	} else if (browsername.equals("FF")) {
